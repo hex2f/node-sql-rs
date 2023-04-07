@@ -1,0 +1,22 @@
+[package]
+name = "sql-rs"
+version = "1.0.0"
+description = "A Neon brige for the Rust sqlparser-rs"
+authors = ["Leah Lundqvist <leah@pigeon.sh>"]
+license = "MIT"
+edition = "2018"
+exclude = ["index.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sqlparser = { version = "0.32.0", features = ["serde"] }
+serde_json = "*"
+
+[dependencies.neon]
+version = "0.10"
+default-features = false
+features = ["napi-6"]
