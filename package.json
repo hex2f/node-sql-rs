@@ -1,8 +1,8 @@
 {
   "name": "sql-rs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Neon based brige for the Rust sqlparser-rs",
-  "main": "index.node",
+  "main": "index.js",
   "files": [
     "src",
     "Cargo.toml",
@@ -21,12 +21,12 @@
   },
   "author": "Leah Lundqvist <leah@pigeon.sh>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "cargo-cp-artifact": "^0.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leahlundqvist/node-sql-rs.git"
+    "url": "git+https://github.com/hex2f/node-sql-rs.git"
   },
   "keywords": [
     "sql",
@@ -34,7 +34,7 @@
     "rust"
   ],
   "bugs": {
-    "url": "https://github.com/leahlundqvist/node-sql-rs/issues"
+    "url": "https://github.com/hex2f/node-sql-rs/issues"
   },
-  "homepage": "https://github.com/leahlundqvist/node-sql-rs#readme"
+  "homepage": "https://github.com/hex2f/node-sql-rs#readme"
 }
